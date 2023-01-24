@@ -1,4 +1,5 @@
 # roomulon_2.1.1
+A text-based roguelike adventure game.
 
 This is a refactor of roomulon_1.1.5
 
