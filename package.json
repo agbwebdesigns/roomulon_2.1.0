@@ -1,0 +1,25 @@
+{
+  "name": "roomulon_2.1.1",
+  "version": "2.1.1",
+  "description": "roguelike adventure game",
+  "main": "game_controller.js",
+  "scripts": {
+    "start": "node express.js",
+    "dev": "nodemon express.js"
+  },
+  "keywords": [
+    "roguelike",
+    "adventure",
+    "game"
+  ],
+  "author": "Madison Bennett",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4"
+  }
+}

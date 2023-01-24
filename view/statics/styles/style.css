@@ -1,0 +1,247 @@
+html  {
+	font-size: 62.5%;
+}
+
+.cont  {
+	background: white;
+	color: white;
+	font-size: 1em;
+}
+
+.row1  {
+	background: black;
+}
+
+.roomtext  {
+	height: 100%;
+}
+
+#textwindow  {
+	background: lightgray;
+	font-size: 2rem;
+	color: black;
+	width: 38rem;
+	height: 30rem;
+	overflow-y: auto;
+}
+
+#textwindow *  {
+	overflow-anchor: none;
+
+}
+
+#anchor  {
+	overflow-anchor: auto;
+	height: 1px;
+}
+
+#textwindow p  {
+	/* background: green; */
+	margin: 0em;
+	/* overflow-anchor: auto;
+	height: 1px; */
+}
+
+#roomNav  {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+#d-pad  {
+	background: darkblue;
+	width: 15rem;
+	height: 15rem;
+	margin: 1rem;
+	border: thin solid silver;
+	border-radius: .5rem;
+}
+
+.dpadButton  {
+	background: orangered;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: thin solid silver;
+	border-radius: 5px;
+}
+
+.dpadButton:hover  {
+	background-color: orange;
+	cursor: pointer;
+}
+
+.dpadrow  {
+	height: 50px;
+}
+
+.dpadcont  {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#two  {
+	display: inline-block;
+}
+
+#twopointfive  {
+	display: inline-block;
+}
+
+.actions  {
+	margin: 5px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.interact  {
+	flex-grow: 1;
+	font-size: 2rem;
+}
+
+#backofmap  {
+	width: 70rem;
+	height: 60rem;
+}
+
+#mapback  {
+	background: tan;
+	width: 45rem;
+	height: 36rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 10px;
+
+}
+
+.herostats  {
+	background: tan;
+	color: black;
+	font-size: 2em;
+	border-right: thin solid black;
+	border-top: thin solid black;
+	border-bottom: thin solid white;
+}
+
+.herostats h2  {
+	text-decoration: underline;
+	margin-top: 10px;
+}
+
+.herostats p  {
+	margin: 0;
+}
+
+.stats  {
+	background-color: antiquewhite;
+	width: 30rem;
+	border: thin solid grey;
+	border-radius: 5px;
+	font-weight: 700;
+	padding: 0 !important;
+	margin: 5px;
+}
+
+.statsrowone  {
+	width: 100%;
+}
+
+.statsrowtwo {
+	width: 100%;
+}
+
+.skills  {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.skills p  {
+	color: black;
+	font-size-adjust: .3;
+	margin: 0 5px;
+}
+
+.maproom  {
+	background: white;
+	width: 16px;
+	height: 16px;
+	margin: 1px;
+	padding: 1px;
+}
+
+/*#x-11y9  {
+	background: green;
+}*/
+
+.previousroom  {
+	background: black;
+}
+
+.ndirections  {
+	background: url("./images/ndirections.png");
+}
+
+.sdirections  {
+	background: url("./images/sdirections.png");
+}
+
+.edirections  {
+	background: url("./images/edirections.png");
+}
+
+.wdirections  {
+	background: url("./images/wdirections.png");
+}
+
+.nsdirections  {
+	background: url("./images/nsdirections.png");
+}
+
+.nedirections  {
+	background: url("./images/nedirections.png");
+}
+
+.nwdirections  {
+	background: url("./images/nwdirections.png");
+}
+
+.sedirections  {
+	background: url("./images/sedirections.png");
+}
+
+.swdirections  {
+	background: url("./images/swdirections.png");
+}
+
+.ewdirections  {
+	background: url("./images/ewdirections.png");
+}
+
+.nsedirections  {
+	background: url("./images/nsedirections.png");
+}
+
+.nswdirections  {
+	background: url("./images/nswdirections.png");
+}
+
+.newdirections  {
+	background: url("./images/newdirections.png");
+}
+
+.sewdirections  {
+	background: url("./images/sewdirections.png");
+}
+
+.fourdirections  {
+	background: url("./images/fourdirections.png");
+}
+
+.currentroom  {
+	background: red;
+}
